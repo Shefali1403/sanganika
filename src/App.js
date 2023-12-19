@@ -14,7 +14,6 @@ const App=()=>{
     <>
     <Router>
       <Header/>
-   
       <Routes>
         {/* This route will direct to the homepage  */}
         <Route path="/" element={<Homepage/>}/>
@@ -27,7 +26,7 @@ const App=()=>{
         {/* This route will direct to the Team page  */}
         <Route path="/team" element={<Team/>}/>
         {/* This route will direct to the Achievement page  */}
-        <Route path="/achieve" element={<Achievement/>}/>
+        <Route path="/achievement" element={<Achievement/>}/>
       </Routes>
       <Footer/>
     </Router>
