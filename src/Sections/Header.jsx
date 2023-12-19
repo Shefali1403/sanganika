@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 const Header=()=>{
     return(
         <>
-
+     {/* nav div has three div logo, menu, icons with display grid  */}
         <div className="nav grid grid-cols-3 w-screen overflow-x-hidden bg-black border-[2px] border-white border-l-0 border-t-0 border-r-0 h-[6.2rem]">
             <div className="logo w-[14rem] h-[6rem]">
                 <img src={process.env.PUBLIC_URL+ 'images/logo2.png'} className='w-[120px] relative bottom-[19%]' alt="not found" />

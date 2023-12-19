@@ -4,7 +4,7 @@ const Alumni=()=>{
         <>
         <div className="alumni-cont h-screen w-screen">
 
-        <h1>Alumni page</h1>
+        {/* <h1>Alumni page</h1>  */}
         </div>
         </>
     )

@@ -4,7 +4,7 @@ const Academics=()=>{
         <>
         <div className="academic-cont h-screen w-screen">
 
-        <h1>acenfdm</h1>
+        {/* <h1>Academic page</h1>  */}
         </div>
         </>
     )

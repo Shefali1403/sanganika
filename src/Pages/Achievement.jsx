@@ -4,7 +4,7 @@ const Achievement=()=>{
         <>
         <div className="achieve-cont h-screen w-screen">
 
-        <h1>Achievement page</h1>
+        {/* <h1>Achievement page</h1>  */}
         </div>
         </>
     )
