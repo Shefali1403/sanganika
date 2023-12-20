@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
@@ -17,13 +17,13 @@ export default function Header() {
 		{ name: "Achievement", href: "/achievement", current: false },
 	]);
 	const { pathname } = useLocation();
-	function handleNavigation() {
-		setNavigation((prev) => {
+  useEffect(() => {
+    setNavigation((prev) => {
 			return [...prev].map((item) => {
-				return { ...item, current: pathname === item.href };
+				return { ...item, current: pathname === item.href && !item.current };
 			});
 		});
-	}
+  }, [pathname])
 	return (
 		<Disclosure as="nav" className="bg-[#010409]">
 			{({ open }) => (
@@ -56,7 +56,6 @@ export default function Header() {
 											<Link
 												key={item.name}
 												to={item.href}
-												onClick={handleNavigation}
 												className={classNames(
 													item.current
 														? "bg-gray-900 text-white"
