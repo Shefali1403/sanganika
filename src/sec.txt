@@ -1,17 +1,16 @@
-
 import React from "react";
 const Section = () => {
 	return (
 		<div className="sec-container text-white border-hidden pb-[4rem] gap-[4rem] flex flex-col">
 			<div className="relative bg-cover hero pt-[4rem]">
 				<h1 className=" sm:text-sm sm:ml-[0rem] lg:text-4xl lg:ml-[12rem] font-bold">Let's get started</h1>
-				<div className="flex box1 items-center justify-between px-[11rem] ">
+				<div className="flex items-center justify-between px-[11rem] ">
 					<img
 						src={process.env.PUBLIC_URL + "assets/images/logo2.png"}
-						className="sm:w-[50vw] img-class lg:w-[20rem] mt-[1rem] z-[10]"
+						className="sm:w-[50vw] lg:w-[20rem] mt-[1rem] z-[10]"
 						alt="not found"
 					/>
-					<p className="sm:text-sm lg:text-3xl parag-class">
+					<p className="sm:text-sm lg:text-3xl">
 						<b>N</b>urturing <b>M</b>inds, <b>I</b>gniting <b>I</b>nnovation :
 						<br /> Our Computer Science Society, where
 						<br />
@@ -20,14 +19,14 @@ const Section = () => {
 						realm.
 					</p>
 				</div>
-				<div className="px-[2rem] flex flex-col intro-box">
+				<div className="px-[2rem] flex flex-col">
 					<h1 className="text-4xl font-semibold mb-[3rem]">
 						Introduction are in order....
 					</h1>
 					<span className="text-xl mb-[1rem]">
 						welcome to <span className="text-2xl font-semibold">Sanganika</span>
 					</span>
-					<p className="w-[50%] text-lg box1-card2">
+					<p className="w-[50%] text-lg">
 						A dynamic hub for technology enthusiasts, our society thrives on the
 						fusion of creativity, curiosity, and collaboration. Whether you're a
 						seasoned coder, a budding software engineer, or simply intrigued by the
