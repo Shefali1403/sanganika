@@ -11,7 +11,7 @@ const Footer=()=>{
                         <p>Dwarka Sector - 3, New Delhi 110078</p>
                     </div>
                 </div>
-                <div className="footer-card flex flex-col items-center space-y-5]">
+                <div className="footer-card flex flex-col space-y-5]">
                     <p className="self-center font-bold">Follow us at</p>
                     <div className="border-dashed border-t-2 border-[#C8D0D9] follow-box flex justify-center gap-[1rem] w-full mt-[1.4rem]">
                         <a target = '_blank' href = 'https://www.instagram.com/sanganika_dduc/'><img src={process.env.PUBLIC_URL+'/assets/svg/instagram.svg'} className=" mt-3" alt="not found"/></a>

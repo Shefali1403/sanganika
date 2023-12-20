@@ -2,9 +2,9 @@ import React from 'react';
 const Events=()=>{
     return(
         <>
-        <div className="event-cont h-screen w-screen">
+        <div className="event-cont flex-grow">
 
-        <h1>Event page</h1>
+        {/* <h1>Event page</h1>  */}
         </div>
         </>
     )

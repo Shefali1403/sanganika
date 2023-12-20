@@ -2,9 +2,9 @@ import React from 'react';
 const Academics=()=>{
     return(
         <>
-        <div className="academic-cont h-screen w-screen">
+        <div className="academic-cont flex-grow">
 
-        <h1>acenfdm</h1>
+         {/* <h1>Academic page</h1>   */}
         </div>
         </>
     )

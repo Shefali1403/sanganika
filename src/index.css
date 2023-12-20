@@ -23,3 +23,164 @@
 	@apply text-4xl font-normal;
 	
 }
+/* @media screen and (min-width:300px) and (max-width:499px) {
+	.hero{
+		width: 100vw;
+    background-size: 100vw 92vh;
+    background-repeat: no-repeat;
+	}
+	.hero h1{
+		color:red;
+		font-size: 1.4rem;
+		margin-left: 1rem;
+	}
+	.box1{
+		display: grid;
+		grid-template-columns: repeat(2,auto);
+		column-gap: 1rem;
+		width:100vw;
+	}
+	.box1 img{
+		width: 10vw;
+	}
+	.box1 p{
+		font-size: 1rem;
+	}
+	.intro-box{
+		position: relative;
+    right: 6%;
+	}
+	.box1-card2{
+		width: 100vw;
+    font-size: 0.9rem;
+	padding: 2;
+	}
+	.box2{
+		flex-direction: column;
+	}
+	.box2 img{
+		width: auto;
+	}
+	.box2-card2{
+		width: 100vw;
+    font-size: 0.9rem;
+    position: relative;
+    right: 5%;
+	}
+	.box2-card2 p{
+		width: auto;
+	}
+	.footer-boxes p{
+		font-size: 0.6rem;
+	}
+
+	
+}
+
+@media screen and (min-width:500px) and (max-width:799px) {
+	.box1{
+		display: grid;
+		grid-template-columns: repeat(2,auto);
+		column-gap: 1rem;
+		width:100vw;
+	}
+	.img-class {
+		width: 14vw;
+	}
+	.box1 .parag-class{
+		color:red;
+	}
+	.box1-card2{
+		width: 100vw;
+    font-size: 0.9rem;
+	padding: 2;
+	}
+	.box2{
+		flex-direction: column;
+	}
+	.box2 img{
+		width: auto;
+	}
+	.box2-card2{
+		width: 100vw;
+    position: relative;
+	padding:2;
+    right: 5%;
+	}
+	.box2 .box2-card2 p{
+		width: 100%;
+		@apply text-sm;
+		@apply text-blue-400;
+		
+	}
+	.footer-boxes p{
+		font-size: 0.6rem;
+	}
+} */
+
+
+@media (max-width : 1210px){
+	.box2 .box2-card2 p{
+		@apply text-base;
+	}
+	.box2 .box2-card2 strong{
+		@apply text-2xl;
+	}
+}
+
+@media (max-width:1025px){
+	.box1 b{
+		@apply text-3xl 
+	}
+	.box1 p{
+		@apply text-2xl
+	}
+	.box1-card2 p{
+		width: 100%;
+	}
+	.box2{
+		flex-direction: column;
+	}
+	.box2 .box2-card2 p{
+		width: 100%;
+		@apply text-lg;
+		/* @apply text-red-500; */
+	}
+	
+}
+
+@media (max-width:800px){
+	.footer-cont .footer-boxes{
+		grid-template-columns: none;
+		grid-template-rows: repeat(3, auto);
+	}
+	.footer-cont .footer-boxes .footer-card:nth-child(2) p{
+		@apply self-start
+	}	
+	.footer-cont .footer-boxes .footer-card:nth-child(2) div{
+		@apply justify-start
+	}	
+
+	.box1 img{
+		width : 180px;
+		height : auto;
+	}
+}
+
+@media (max-width:630px){
+	.hero h1{
+		@apply text-2xl
+	}
+	.box1 img{
+		width: 150px;
+		height: auto;
+	}
+	.box1 p{
+		@apply text-lg;
+	}
+}
+@media (max-width:536px){
+	.box1{
+		@apply flex-col;
+	}
+}
