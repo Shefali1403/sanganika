@@ -31,6 +31,9 @@
 	.box2 .box2-card2 strong{
 		@apply text-2xl;
 	}
+	.box2{
+		flex-direction: column;
+	}
 }
 
 @media (max-width:1025px){
@@ -42,9 +45,6 @@
 	}
 	.box1-card2 p{
 		width: 100%;
-	}
-	.box2{
-		flex-direction: column;
 	}
 	.box2 .box2-card2 p{
 		width: 100%;
